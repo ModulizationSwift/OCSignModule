@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		177C63E6E4B7366A3C49165B902B8EBD /* OCSignModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C479A3493593ADF9CBA8CA61730BBFF /* OCSignModule-dummy.m */; };
+		7483B313DCB007356913CC3272FEC180 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A996BA7FE20F7B6BF13A99C45BA9803C /* Pods-OCSignModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F46A1023BF3A48BCE232955E1C9F29B1 /* Pods-OCSignModule_Example-dummy.m */; };
+		AA5230EE1F01281A00E64D89 /* UIViewController+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5230EC1F01281A00E64D89 /* UIViewController+Ext.h */; };
+		AA5230EF1F01281A00E64D89 /* UIViewController+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5230ED1F01281A00E64D89 /* UIViewController+Ext.m */; };
+		B35D23FD6D6C301935F6D038021F1F6E /* Pods-OCSignModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A846500D68C6879E21E3D8D6D27753 /* Pods-OCSignModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3D5AC5309E5CB4545788AFE2DE6699F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C9EA0CD798B259B390C5B96DD69B2BC3 /* Pods-OCSignModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC8E80A95B67FA7B23D98D8F7DAF97C /* Pods-OCSignModule_Tests-dummy.m */; };
+		E70E034BF7DA4770BBE3612FDE3F8446 /* OCSignModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98E37CAC413434E23409BE4BA7DE589B /* OCSignModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2463544BB70F14EFF6C925890C71476 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F51AA90E9BD144F62B05830D050FAD9C /* Pods-OCSignModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E9C1533EFEE5A2A866E19FFC5F6494D /* Pods-OCSignModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B41DF5E0B2951D227948D6C36B5BC60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5EFF62CADB3F8A6475C4A7BA770BD1C;
+			remoteInfo = OCSignModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A3BA5B2C873EAF4D783A10EE1063C70 /* OCSignModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCSignModule.xcconfig; sourceTree = "<group>"; };
+		143086AB9C0AEBD6F06ED7A0507C2A79 /* Pods-OCSignModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCSignModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		258BB0E0DE4EB86C532A4EA80554C45A /* OCSignModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCSignModule-prefix.pch"; sourceTree = "<group>"; };
+		2FF68B7BE4CD54C98D0D4C26E72B4514 /* Pods-OCSignModule_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCSignModule_Example-resources.sh"; sourceTree = "<group>"; };
+		308EC73E75CF12C74059003433F2EFB7 /* Pods-OCSignModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCSignModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		38EE16B5B7CF34B61449335C0A53CF24 /* Pods-OCSignModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCSignModule_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3CA8D5C50D51F9C6DD93AC40E33D9E71 /* Pods-OCSignModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OCSignModule_Tests.modulemap"; sourceTree = "<group>"; };
+		460825625EAD61F659482A6D517F1149 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4680797ABDFD3EB23D7840C23A92C345 /* Pods_OCSignModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCSignModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E9C1533EFEE5A2A866E19FFC5F6494D /* Pods-OCSignModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OCSignModule_Tests-umbrella.h"; sourceTree = "<group>"; };
+		60EBEA12A84EF489B61AE162AEF7E4EF /* Pods-OCSignModule_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCSignModule_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		62AEF51158514713D5C5A0D6E7827EB1 /* Pods-OCSignModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCSignModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7C479A3493593ADF9CBA8CA61730BBFF /* OCSignModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCSignModule-dummy.m"; sourceTree = "<group>"; };
+		7DDCC9F351F0972F42DB0B14217A4226 /* Pods-OCSignModule_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCSignModule_Tests-resources.sh"; sourceTree = "<group>"; };
+		80A2DE1A1D626A818314F48346C3079D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		864A2A8F17A5A5C8BEB2B52C78CDF311 /* Pods-OCSignModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCSignModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8D44B1636C5F3FD9FB618EDC9639C6D7 /* OCSignModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCSignModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		917A91DBB4A821BF58D1EEDCB84E75C7 /* Pods-OCSignModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCSignModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97A846500D68C6879E21E3D8D6D27753 /* Pods-OCSignModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OCSignModule_Example-umbrella.h"; sourceTree = "<group>"; };
+		98E37CAC413434E23409BE4BA7DE589B /* OCSignModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCSignModule-umbrella.h"; sourceTree = "<group>"; };
+		AA5230EC1F01281A00E64D89 /* UIViewController+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Ext.h"; sourceTree = "<group>"; };
+		AA5230ED1F01281A00E64D89 /* UIViewController+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Ext.m"; sourceTree = "<group>"; };
+		BDBF4E410CA6981AA43420025F154A10 /* Pods-OCSignModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCSignModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C0E403EA0CE01E6CF9DAECD630928BF8 /* Pods_OCSignModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCSignModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8B660A16F77A6571D78EAB8C448E05 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC471387751B6EA02B1E79FD01CBCF27 /* Pods-OCSignModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OCSignModule_Example.modulemap"; sourceTree = "<group>"; };
+		DCE7AE0F33B4CDE45A13B0552FF00998 /* Pods-OCSignModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCSignModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EEF9E5AB4317080A7D9AB1B2C05DBB90 /* OCSignModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OCSignModule.modulemap; sourceTree = "<group>"; };
+		F46A1023BF3A48BCE232955E1C9F29B1 /* Pods-OCSignModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCSignModule_Example-dummy.m"; sourceTree = "<group>"; };
+		FAC8E80A95B67FA7B23D98D8F7DAF97C /* Pods-OCSignModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCSignModule_Tests-dummy.m"; sourceTree = "<group>"; };
+		FE4C51433C8C1066F5318918F40301E8 /* Pods-OCSignModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCSignModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		248DF19C2667F3FA39AB7C72712C0E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D5AC5309E5CB4545788AFE2DE6699F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F9396DB63F916A22982E65580B9679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2463544BB70F14EFF6C925890C71476 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D9ECE40F28E1E051A893CA407F05D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7483B313DCB007356913CC3272FEC180 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E1A88A21D26E160A938D6AA6B100B6B /* OCSignModule */ = {
+			isa = PBXGroup;
+			children = (
+				81E29D7D7A87C51254AA64440F196AA8 /* Classes */,
+			);
+			path = OCSignModule;
+			sourceTree = "<group>";
+		};
+		1EC07EBD043E1E920862E0497D149C73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D44B1636C5F3FD9FB618EDC9639C6D7 /* OCSignModule.framework */,
+				4680797ABDFD3EB23D7840C23A92C345 /* Pods_OCSignModule_Example.framework */,
+				C0E403EA0CE01E6CF9DAECD630928BF8 /* Pods_OCSignModule_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AE134AE3E2BEA5C8A2E8B8F6949F35D /* OCSignModule */ = {
+			isa = PBXGroup;
+			children = (
+				0E1A88A21D26E160A938D6AA6B100B6B /* OCSignModule */,
+				A67CAD24A847DEDEFD804857E700A875 /* Support Files */,
+			);
+			name = OCSignModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		51C9510A667712E92CEE4023CADA590D /* Pods-OCSignModule_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				80A2DE1A1D626A818314F48346C3079D /* Info.plist */,
+				3CA8D5C50D51F9C6DD93AC40E33D9E71 /* Pods-OCSignModule_Tests.modulemap */,
+				917A91DBB4A821BF58D1EEDCB84E75C7 /* Pods-OCSignModule_Tests-acknowledgements.markdown */,
+				864A2A8F17A5A5C8BEB2B52C78CDF311 /* Pods-OCSignModule_Tests-acknowledgements.plist */,
+				FAC8E80A95B67FA7B23D98D8F7DAF97C /* Pods-OCSignModule_Tests-dummy.m */,
+				60EBEA12A84EF489B61AE162AEF7E4EF /* Pods-OCSignModule_Tests-frameworks.sh */,
+				7DDCC9F351F0972F42DB0B14217A4226 /* Pods-OCSignModule_Tests-resources.sh */,
+				4E9C1533EFEE5A2A866E19FFC5F6494D /* Pods-OCSignModule_Tests-umbrella.h */,
+				143086AB9C0AEBD6F06ED7A0507C2A79 /* Pods-OCSignModule_Tests.debug.xcconfig */,
+				BDBF4E410CA6981AA43420025F154A10 /* Pods-OCSignModule_Tests.release.xcconfig */,
+			);
+			name = "Pods-OCSignModule_Tests";
+			path = "Target Support Files/Pods-OCSignModule_Tests";
+			sourceTree = "<group>";
+		};
+		69D783CF4A597553EB7E667E049BF5F1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B700CFE8D733A471E8DA6725923A023 /* Pods-OCSignModule_Example */,
+				51C9510A667712E92CEE4023CADA590D /* Pods-OCSignModule_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6B700CFE8D733A471E8DA6725923A023 /* Pods-OCSignModule_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CE8B660A16F77A6571D78EAB8C448E05 /* Info.plist */,
+				DC471387751B6EA02B1E79FD01CBCF27 /* Pods-OCSignModule_Example.modulemap */,
+				DCE7AE0F33B4CDE45A13B0552FF00998 /* Pods-OCSignModule_Example-acknowledgements.markdown */,
+				62AEF51158514713D5C5A0D6E7827EB1 /* Pods-OCSignModule_Example-acknowledgements.plist */,
+				F46A1023BF3A48BCE232955E1C9F29B1 /* Pods-OCSignModule_Example-dummy.m */,
+				38EE16B5B7CF34B61449335C0A53CF24 /* Pods-OCSignModule_Example-frameworks.sh */,
+				2FF68B7BE4CD54C98D0D4C26E72B4514 /* Pods-OCSignModule_Example-resources.sh */,
+				97A846500D68C6879E21E3D8D6D27753 /* Pods-OCSignModule_Example-umbrella.h */,
+				FE4C51433C8C1066F5318918F40301E8 /* Pods-OCSignModule_Example.debug.xcconfig */,
+				308EC73E75CF12C74059003433F2EFB7 /* Pods-OCSignModule_Example.release.xcconfig */,
+			);
+			name = "Pods-OCSignModule_Example";
+			path = "Target Support Files/Pods-OCSignModule_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D874F41766AA3B467CD9365B7FBF3513 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1EC07EBD043E1E920862E0497D149C73 /* Products */,
+				69D783CF4A597553EB7E667E049BF5F1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81E29D7D7A87C51254AA64440F196AA8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AA5230EC1F01281A00E64D89 /* UIViewController+Ext.h */,
+				AA5230ED1F01281A00E64D89 /* UIViewController+Ext.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A67CAD24A847DEDEFD804857E700A875 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				460825625EAD61F659482A6D517F1149 /* Info.plist */,
+				EEF9E5AB4317080A7D9AB1B2C05DBB90 /* OCSignModule.modulemap */,
+				0A3BA5B2C873EAF4D783A10EE1063C70 /* OCSignModule.xcconfig */,
+				7C479A3493593ADF9CBA8CA61730BBFF /* OCSignModule-dummy.m */,
+				258BB0E0DE4EB86C532A4EA80554C45A /* OCSignModule-prefix.pch */,
+				98E37CAC413434E23409BE4BA7DE589B /* OCSignModule-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OCSignModule";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D874F41766AA3B467CD9365B7FBF3513 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AE134AE3E2BEA5C8A2E8B8F6949F35D /* OCSignModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		20BAACBB8EACE2762B077346D3E157D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35D23FD6D6C301935F6D038021F1F6E /* Pods-OCSignModule_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D12063D06EEA5019C6133D5A8D25AA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51AA90E9BD144F62B05830D050FAD9C /* Pods-OCSignModule_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816799CBED2138F172D8F79297A3B361 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70E034BF7DA4770BBE3612FDE3F8446 /* OCSignModule-umbrella.h in Headers */,
+				AA5230EE1F01281A00E64D89 /* UIViewController+Ext.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3A7C0FC359E6AE1D19B1562A54BB0C79 /* Pods-OCSignModule_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDB353ADF24E3DD97154C38CA9A7CE5 /* Build configuration list for PBXNativeTarget "Pods-OCSignModule_Example" */;
+			buildPhases = (
+				ABE69AAC719941F9F53369A07CE20921 /* Sources */,
+				8D9ECE40F28E1E051A893CA407F05D0A /* Frameworks */,
+				20BAACBB8EACE2762B077346D3E157D9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5D8B6AB925B38B0735E7CD2580FBE32 /* PBXTargetDependency */,
+			);
+			name = "Pods-OCSignModule_Example";
+			productName = "Pods-OCSignModule_Example";
+			productReference = 4680797ABDFD3EB23D7840C23A92C345 /* Pods_OCSignModule_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7767A3C4DD90FDDD6878D54EDA92D10D /* Pods-OCSignModule_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90442F25E163E6CE4A98ABE6463D6B12 /* Build configuration list for PBXNativeTarget "Pods-OCSignModule_Tests" */;
+			buildPhases = (
+				DEA145AF687D32905005C8DBFD8654C7 /* Sources */,
+				25F9396DB63F916A22982E65580B9679 /* Frameworks */,
+				3D12063D06EEA5019C6133D5A8D25AA4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OCSignModule_Tests";
+			productName = "Pods-OCSignModule_Tests";
+			productReference = C0E403EA0CE01E6CF9DAECD630928BF8 /* Pods_OCSignModule_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F5EFF62CADB3F8A6475C4A7BA770BD1C /* OCSignModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AF3477B45C7B3FBD25CFDD55E04421A /* Build configuration list for PBXNativeTarget "OCSignModule" */;
+			buildPhases = (
+				2366100D3E663C103F74A3707F48C17F /* Sources */,
+				248DF19C2667F3FA39AB7C72712C0E62 /* Frameworks */,
+				816799CBED2138F172D8F79297A3B361 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCSignModule;
+			productName = OCSignModule;
+			productReference = 8D44B1636C5F3FD9FB618EDC9639C6D7 /* OCSignModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1EC07EBD043E1E920862E0497D149C73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5EFF62CADB3F8A6475C4A7BA770BD1C /* OCSignModule */,
+				3A7C0FC359E6AE1D19B1562A54BB0C79 /* Pods-OCSignModule_Example */,
+				7767A3C4DD90FDDD6878D54EDA92D10D /* Pods-OCSignModule_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2366100D3E663C103F74A3707F48C17F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177C63E6E4B7366A3C49165B902B8EBD /* OCSignModule-dummy.m in Sources */,
+				AA5230EF1F01281A00E64D89 /* UIViewController+Ext.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE69AAC719941F9F53369A07CE20921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A996BA7FE20F7B6BF13A99C45BA9803C /* Pods-OCSignModule_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA145AF687D32905005C8DBFD8654C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9EA0CD798B259B390C5B96DD69B2BC3 /* Pods-OCSignModule_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5D8B6AB925B38B0735E7CD2580FBE32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCSignModule;
+			target = F5EFF62CADB3F8A6475C4A7BA770BD1C /* OCSignModule */;
+			targetProxy = 6B41DF5E0B2951D227948D6C36B5BC60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		152B8CF3DC144A8C606E1EB6909EAD05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE4C51433C8C1066F5318918F40301E8 /* Pods-OCSignModule_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OCSignModule_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OCSignModule_Example/Pods-OCSignModule_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OCSignModule_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		56490588C56B4D21D342D687228C2D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A3BA5B2C873EAF4D783A10EE1063C70 /* OCSignModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OCSignModule/OCSignModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OCSignModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OCSignModule/OCSignModule.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = OCSignModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F5BBA911091474C2CE267221224302C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 308EC73E75CF12C74059003433F2EFB7 /* Pods-OCSignModule_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OCSignModule_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OCSignModule_Example/Pods-OCSignModule_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OCSignModule_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		900AF6DBC6E580BF96FCA8A39313E2B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDBF4E410CA6981AA43420025F154A10 /* Pods-OCSignModule_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OCSignModule_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OCSignModule_Tests/Pods-OCSignModule_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OCSignModule_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B2F66A3E905995D35A608ADF29CCA0D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A3BA5B2C873EAF4D783A10EE1063C70 /* OCSignModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OCSignModule/OCSignModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OCSignModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OCSignModule/OCSignModule.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = OCSignModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F534D3DF42BF6AC12E6F4192310EF01D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 143086AB9C0AEBD6F06ED7A0507C2A79 /* Pods-OCSignModule_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OCSignModule_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OCSignModule_Tests/Pods-OCSignModule_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OCSignModule_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AF3477B45C7B3FBD25CFDD55E04421A /* Build configuration list for PBXNativeTarget "OCSignModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F66A3E905995D35A608ADF29CCA0D4 /* Debug */,
+				56490588C56B4D21D342D687228C2D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90442F25E163E6CE4A98ABE6463D6B12 /* Build configuration list for PBXNativeTarget "Pods-OCSignModule_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F534D3DF42BF6AC12E6F4192310EF01D /* Debug */,
+				900AF6DBC6E580BF96FCA8A39313E2B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDB353ADF24E3DD97154C38CA9A7CE5 /* Build configuration list for PBXNativeTarget "Pods-OCSignModule_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152B8CF3DC144A8C606E1EB6909EAD05 /* Debug */,
+				6F5BBA911091474C2CE267221224302C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

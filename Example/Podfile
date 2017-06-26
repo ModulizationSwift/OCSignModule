@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OCSignModule_Example' do
+  pod 'OCSignModule', :path => '../'
+
+  target 'OCSignModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

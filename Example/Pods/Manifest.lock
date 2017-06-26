@@ -1,0 +1,16 @@
+PODS:
+  - OCSignModule (0.1.0)
+
+DEPENDENCIES:
+  - OCSignModule (from `../`)
+
+EXTERNAL SOURCES:
+  OCSignModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OCSignModule: 2304447c509469bf7add0ad59ff805bdac9213da
+
+PODFILE CHECKSUM: 5d868c87a114433eaf7ee8014f4e31e2deb35242
+
+COCOAPODS: 1.2.1

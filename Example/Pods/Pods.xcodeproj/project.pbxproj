@@ -39,7 +39,6 @@
 		38EE16B5B7CF34B61449335C0A53CF24 /* Pods-OCSignModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCSignModule_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3CA8D5C50D51F9C6DD93AC40E33D9E71 /* Pods-OCSignModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OCSignModule_Tests.modulemap"; sourceTree = "<group>"; };
 		460825625EAD61F659482A6D517F1149 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4680797ABDFD3EB23D7840C23A92C345 /* Pods_OCSignModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCSignModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E9C1533EFEE5A2A866E19FFC5F6494D /* Pods-OCSignModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OCSignModule_Tests-umbrella.h"; sourceTree = "<group>"; };
 		60EBEA12A84EF489B61AE162AEF7E4EF /* Pods-OCSignModule_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCSignModule_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		62AEF51158514713D5C5A0D6E7827EB1 /* Pods-OCSignModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCSignModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -56,7 +55,6 @@
 		AA5230EC1F01281A00E64D89 /* UIViewController+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Ext.h"; sourceTree = "<group>"; };
 		AA5230ED1F01281A00E64D89 /* UIViewController+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Ext.m"; sourceTree = "<group>"; };
 		BDBF4E410CA6981AA43420025F154A10 /* Pods-OCSignModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCSignModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C0E403EA0CE01E6CF9DAECD630928BF8 /* Pods_OCSignModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCSignModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8B660A16F77A6571D78EAB8C448E05 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC471387751B6EA02B1E79FD01CBCF27 /* Pods-OCSignModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OCSignModule_Example.modulemap"; sourceTree = "<group>"; };
 		DCE7AE0F33B4CDE45A13B0552FF00998 /* Pods-OCSignModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCSignModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -106,8 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				8D44B1636C5F3FD9FB618EDC9639C6D7 /* OCSignModule.framework */,
-				4680797ABDFD3EB23D7840C23A92C345 /* Pods_OCSignModule_Example.framework */,
-				C0E403EA0CE01E6CF9DAECD630928BF8 /* Pods_OCSignModule_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -271,7 +267,6 @@
 			);
 			name = "Pods-OCSignModule_Example";
 			productName = "Pods-OCSignModule_Example";
-			productReference = 4680797ABDFD3EB23D7840C23A92C345 /* Pods_OCSignModule_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7767A3C4DD90FDDD6878D54EDA92D10D /* Pods-OCSignModule_Tests */ = {
@@ -288,7 +283,6 @@
 			);
 			name = "Pods-OCSignModule_Tests";
 			productName = "Pods-OCSignModule_Tests";
-			productReference = C0E403EA0CE01E6CF9DAECD630928BF8 /* Pods_OCSignModule_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F5EFF62CADB3F8A6475C4A7BA770BD1C /* OCSignModule */ = {
@@ -317,7 +311,7 @@
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "_Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -677,7 +671,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "_Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,

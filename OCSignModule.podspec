@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OCSignModule'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of OCSignModule.'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
    $lib_name = ENV["#{s.name}_use_lib"]
    if $lib || $lib_name
       puts '---------binary-------'
-      s.source_files = "#{s.name}/Classes/**/*"
+      # s.source_files = "#{s.name}/Classes/**/*"
       s.public_header_files = "#{s.name}/Classes/**/*.h"
       s.ios.vendored_framework = "Framework/#{s.version}/#{s.name}.framework"
      #  这种是帮你打包成bundle

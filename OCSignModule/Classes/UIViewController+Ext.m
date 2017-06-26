@@ -9,7 +9,7 @@
 #import "UIViewController+Ext.h"
 
 @implementation UIViewController (Ext)
-+(void)greet {
+- (void)greet {
     NSLog(@"say hello");
 }
 @end

@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UIViewController (Ext)
-+(void)greet;
+- (void)greet;
 @end
